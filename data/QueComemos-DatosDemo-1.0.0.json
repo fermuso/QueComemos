@@ -1,0 +1,3290 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "demo",
+  "appVersion": "0.1.0",
+  "synthetic": true,
+  "family": {
+    "members": [
+      {
+        "id": "demo-alex",
+        "name": "Álex (ficticio)",
+        "age": 38,
+        "portion": 1,
+        "allergies": [],
+        "intolerances": [],
+        "preferences": [],
+        "availableMinutes": 60
+      },
+      {
+        "id": "demo-sara",
+        "name": "Sara (ficticia)",
+        "age": 36,
+        "portion": 1,
+        "allergies": [],
+        "intolerances": [],
+        "preferences": [],
+        "availableMinutes": 60
+      },
+      {
+        "id": "demo-luna",
+        "name": "Luna (ficticia)",
+        "age": 6,
+        "portion": 1,
+        "allergies": [],
+        "intolerances": [],
+        "preferences": [],
+        "availableMinutes": 60
+      },
+      {
+        "id": "demo-leo",
+        "name": "Leo (ficticio)",
+        "age": 10,
+        "portion": 1,
+        "allergies": [],
+        "intolerances": [],
+        "preferences": [],
+        "availableMinutes": 60
+      }
+    ],
+    "outsideMeals": []
+  },
+  "recipes": [
+    {
+      "id": "crema-lentejas-rojas",
+      "title": "Crema de lentejas rojas, zanahoria y cilantro",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "lenteja-roja",
+          "name": "Lentejas rojas peladas",
+          "quantity": 150,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "150 g"
+        },
+        {
+          "ingredientId": "cebolla",
+          "name": "Cebolla",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "puerro",
+          "name": "Puerro (si es temporada)",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "zanahoria",
+          "name": "Zanahoria",
+          "quantity": 3,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 unidad"
+        },
+        {
+          "ingredientId": "cilantro",
+          "name": "Cilantro fresco (brotes)",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "10–12 brotes"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "caldo-vegetal",
+          "name": "Caldo vegetal o agua",
+          "quantity": 1500,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "1,5 litros de caldo vegetal o agua"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": null,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Rehoga la cebolla y las zanahorias troceadas con aceite.",
+        "Incorpora el puerro y cilantro; reserva unas hojas. Cocina 5 minutos.",
+        "Vierte la mitad del caldo, condimenta y cuece 15 minutos. Tritura.",
+        "Añade el caldo restante y las lentejas. Cuece 20 minutos, hasta que estén hechas; decora con cilantro."
+      ],
+      "allergens": [],
+      "allergenStatus": "unknown",
+      "groups": [
+        "legumbres",
+        "hortalizas"
+      ],
+      "sourceId": "cs-crema-lentejas-rojas",
+      "evidenceChunkIds": [
+        "ev-crema-lentejas-rojas"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "pate-lentejas-nueces",
+      "title": "Paté de lentejas y nueces",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "lenteja",
+          "name": "Lentejas cocidas",
+          "quantity": 400,
+          "unit": "g",
+          "state": "cocido",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "400 g"
+        },
+        {
+          "ingredientId": "nuez",
+          "name": "Nueces peladas",
+          "quantity": 80,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [
+            "frutos secos"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "80 g"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "limon",
+          "name": "Limones",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "comino",
+          "name": "Comino en polvo",
+          "quantity": 1,
+          "unit": "cucharadita",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 cucharadita"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 4,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "4 cucharada"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Pela y pica el ajo.",
+        "Tritura las lentejas con nueces, ajo, zumo de limón, aceite, comino, sal y pimienta. Ajusta la consistencia con un poco de agua o limón si hace falta."
+      ],
+      "allergens": [
+        "frutos secos"
+      ],
+      "allergenStatus": "known",
+      "groups": [
+        "legumbres",
+        "frutos secos"
+      ],
+      "sourceId": "cs-pate-lentejas-nueces",
+      "evidenceChunkIds": [
+        "ev-pate-lentejas-nueces"
+      ],
+      "notes": [
+        "La fuente propone servirlo con ensalada y pan o en bocadillos.",
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "crema-alubias-calabaza",
+      "title": "Crema de alubias blancas, calabaza y romero",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "alubia-blanca",
+          "name": "Alubias blancas cocidas",
+          "quantity": 400,
+          "unit": "g",
+          "state": "cocido",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "400 g"
+        },
+        {
+          "ingredientId": "calabaza",
+          "name": "Calabaza",
+          "quantity": 500,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "500 g"
+        },
+        {
+          "ingredientId": "cebolla",
+          "name": "Cebolla",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "caldo-vegetal",
+          "name": "Caldo vegetal o agua",
+          "quantity": null,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "Hasta cubrir los ingredientes"
+        },
+        {
+          "ingredientId": "romero",
+          "name": "Romero (brote)",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": null,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Pela la calabaza y córtala en dados. Rehoga la cebolla picada y los ajos enteros en aceite.",
+        "Añade calabaza y condimentos; cocina unos minutos.",
+        "Cubre con caldo, tapa y cuece 10–15 minutos.",
+        "Incorpora alubias y romero picado. Cuece unos minutos y tritura hasta obtener una crema fina."
+      ],
+      "allergens": [],
+      "allergenStatus": "unknown",
+      "groups": [
+        "legumbres",
+        "hortalizas"
+      ],
+      "sourceId": "cs-crema-alubias-calabaza",
+      "evidenceChunkIds": [
+        "ev-crema-alubias-calabaza"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "garbanzos-curry",
+      "title": "Garbanzos con curry y calabaza",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "garbanzo",
+          "name": "Garbanzos cocidos",
+          "quantity": 800,
+          "unit": "g",
+          "state": "cocido",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "800 g"
+        },
+        {
+          "ingredientId": "cebolla",
+          "name": "Cebolla",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "tomate-triturado",
+          "name": "Tomate triturado",
+          "quantity": 500,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "500 ml"
+        },
+        {
+          "ingredientId": "calabaza",
+          "name": "Calabaza",
+          "quantity": 500,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "500 g"
+        },
+        {
+          "ingredientId": "cilantro",
+          "name": "Cilantro (brotes)",
+          "quantity": 8,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "8 unidad"
+        },
+        {
+          "ingredientId": "curry",
+          "name": "Curry",
+          "quantity": 1,
+          "unit": "cucharada",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "1 cucharada sopera"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 3,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 cucharada"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Pocha la cebolla picada en una cazuela con aceite.",
+        "Añade curry y sal opcional; cocina 1 minuto.",
+        "Agrega tomate y cocina 5 minutos.",
+        "Incorpora calabaza en dados pequeños; cocina 8–10 minutos.",
+        "Añade garbanzos y cocina 5–8 minutos más. Sirve con cilantro limpio y picado."
+      ],
+      "allergens": [],
+      "allergenStatus": "unknown",
+      "groups": [
+        "legumbres",
+        "hortalizas"
+      ],
+      "sourceId": "cs-garbanzos-curry",
+      "evidenceChunkIds": [
+        "ev-garbanzos-curry"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "estofado-tofu",
+      "title": "Estofado de verduras con tofu",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "tofu",
+          "name": "Tofu",
+          "quantity": 400,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [
+            "soja"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "400 g"
+        },
+        {
+          "ingredientId": "cebolla",
+          "name": "Cebolla",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "puerro",
+          "name": "Puerro",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "zanahoria",
+          "name": "Zanahoria",
+          "quantity": 3,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 unidad"
+        },
+        {
+          "ingredientId": "nabo",
+          "name": "Nabos",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "alcachofa",
+          "name": "Alcachofas",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "guisante",
+          "name": "Guisantes (opcionales según temporada)",
+          "quantity": 200,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "200 g"
+        },
+        {
+          "ingredientId": "champinon",
+          "name": "Champiñones",
+          "quantity": 150,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "150 g"
+        },
+        {
+          "ingredientId": "limon",
+          "name": "Limón",
+          "quantity": 0.5,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "0.5 unidad"
+        },
+        {
+          "ingredientId": "laurel",
+          "name": "Hojas de laurel",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "oregano",
+          "name": "Orégano",
+          "quantity": 1,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 cucharada"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": null,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "salsa-soja",
+          "name": "Salsa de soja",
+          "quantity": 2,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [
+            "soja",
+            "gluten"
+          ],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "2 cucharadas soperas; comprobar etiqueta"
+        },
+        {
+          "ingredientId": "almendra",
+          "name": "Almendras",
+          "quantity": 25,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [
+            "frutos secos"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "25 g"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 3,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 unidad"
+        },
+        {
+          "ingredientId": "pan-tostado",
+          "name": "Pan tostado (rebanada pequeña)",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "seco",
+          "allergens": [
+            "gluten"
+          ],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "1 rebanada pequeña"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Limpia y corta cebolla, puerro, zanahorias y nabos. Trocea las alcachofas y resérvalas en agua con limón.",
+        "Limpia y corta los champiñones; corta el tofu en dados.",
+        "Rehoga cebolla, puerro, zanahoria y nabo 5 minutos, tapados.",
+        "Añade champiñones, tofu, hierbas y sal opcional. Cocina 5 minutos.",
+        "Añade un dedo de agua y cuece tapado 10 minutos. Incorpora alcachofas y guisantes; cocina unos 7 minutos, hasta tiernos.",
+        "Prepara una picada de almendras, ajo y pan. Añádela con la salsa de soja, remueve y deja reposar."
+      ],
+      "allergens": [
+        "soja",
+        "gluten",
+        "frutos secos"
+      ],
+      "allergenStatus": "unknown",
+      "groups": [
+        "legumbres",
+        "hortalizas",
+        "frutos secos"
+      ],
+      "sourceId": "cs-estofado-tofu",
+      "evidenceChunkIds": [
+        "ev-estofado-tofu"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "sopa-lentejas-mostaza",
+      "title": "Sopa de lentejas con mostaza",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "lenteja-pardina",
+          "name": "Lentejas pardinas",
+          "quantity": 225,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "225 g"
+        },
+        {
+          "ingredientId": "puerro",
+          "name": "Puerro",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "zanahoria",
+          "name": "Zanahoria",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "cebolla",
+          "name": "Cebolla",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "mostaza",
+          "name": "Mostaza de Dijon",
+          "quantity": 2,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [
+            "mostaza"
+          ],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "2 cucharadas soperas"
+        },
+        {
+          "ingredientId": "caldo-vegetal",
+          "name": "Caldo vegetal",
+          "quantity": 1000,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "1 litro"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 1,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 cucharada"
+        },
+        {
+          "ingredientId": "laurel",
+          "name": "Hoja de laurel",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Pocha la cebolla picada en el aceite.",
+        "Añade zanahoria y puerro cortados finos; cocina 5 minutos.",
+        "Incorpora mostaza y cocina 1 minuto.",
+        "Añade lentejas, 750 ml del caldo y laurel. Cuece suavemente hasta ablandar; añade más caldo o agua si hace falta. Ajusta sal y pimienta."
+      ],
+      "allergens": [
+        "mostaza"
+      ],
+      "allergenStatus": "unknown",
+      "groups": [
+        "legumbres",
+        "hortalizas"
+      ],
+      "sourceId": "cs-sopa-lentejas-mostaza",
+      "evidenceChunkIds": [
+        "ev-sopa-lentejas-mostaza"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "hamburguesas-alubias",
+      "title": "Hamburguesas de alubias rojas",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "alubia-roja",
+          "name": "Alubias cocidas",
+          "quantity": 700,
+          "unit": "g",
+          "state": "cocido",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "700 g"
+        },
+        {
+          "ingredientId": "cebolleta",
+          "name": "Cebolletas pequeñas",
+          "quantity": 6,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "6 unidad"
+        },
+        {
+          "ingredientId": "zanahoria",
+          "name": "Zanahorias medianas",
+          "quantity": 3,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 unidad"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "perejil",
+          "name": "Perejil picado",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pan-rallado",
+          "name": "Pan rallado",
+          "quantity": 50,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [
+            "gluten"
+          ],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "50 g; comprobar etiqueta"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "comino",
+          "name": "Comino",
+          "quantity": null,
+          "unit": "cucharadita",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Al gusto"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 3,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 cucharada"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Ralla la zanahoria y pica el ajo y la cebolleta.",
+        "Tritura las alubias y mézclalas con los demás ingredientes.",
+        "Forma unas 12 hamburguesas y rebózalas en pan rallado.",
+        "Dóralas en sartén antiadherente o en el horno."
+      ],
+      "allergens": [
+        "gluten"
+      ],
+      "allergenStatus": "unknown",
+      "groups": [
+        "legumbres",
+        "hortalizas"
+      ],
+      "sourceId": "cs-hamburguesas-alubias",
+      "evidenceChunkIds": [
+        "ev-hamburguesas-alubias"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "huevos-guisantes",
+      "title": "Huevos al plato con guisantes",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "huevo",
+          "name": "Huevos grandes",
+          "quantity": 4,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [
+            "huevo"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "4 unidad"
+        },
+        {
+          "ingredientId": "tomate",
+          "name": "Tomates maduros",
+          "quantity": 250,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "250 g"
+        },
+        {
+          "ingredientId": "guisante",
+          "name": "Guisantes",
+          "quantity": 200,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "200 g"
+        },
+        {
+          "ingredientId": "ajo-tierno",
+          "name": "Ajos tiernos",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 manojo"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 2,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 cucharada"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Limpia y ralla los tomates. Hierve los guisantes unos 7 minutos.",
+        "Dora los ajos picados en aceite. Añade guisantes, tomate y condimentos; cocina 10 minutos.",
+        "Reparte en cuatro cazuelitas. Coloca una clara en cada una y hornea a 190 °C unos 3–4 minutos, hasta cuajar.",
+        "Añade las yemas y hornea unos 2 minutos más."
+      ],
+      "allergens": [
+        "huevo"
+      ],
+      "allergenStatus": "known",
+      "groups": [
+        "huevos",
+        "legumbres",
+        "hortalizas"
+      ],
+      "sourceId": "cs-huevos-guisantes",
+      "evidenceChunkIds": [
+        "ev-huevos-guisantes"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "lentejas-arroz-setas",
+      "title": "Lentejas con arroz y setas",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "lenteja",
+          "name": "Lentejas secas",
+          "quantity": 200,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "200 g"
+        },
+        {
+          "ingredientId": "arroz",
+          "name": "Arroz, preferiblemente integral",
+          "quantity": 100,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "100 g"
+        },
+        {
+          "ingredientId": "apio",
+          "name": "Apio (rama)",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [
+            "apio"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "zanahoria",
+          "name": "Zanahoria",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "puerro",
+          "name": "Puerro",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "laurel",
+          "name": "Hoja de laurel",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "perejil",
+          "name": "Perejil (brotes)",
+          "quantity": 8,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "8 unidad"
+        },
+        {
+          "ingredientId": "setas",
+          "name": "Setas variadas",
+          "quantity": 250,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "250 g"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": null,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Remoja las lentejas al menos 6 horas.",
+        "Ponlas en una olla con apio, laurel, puerro y zanahoria limpios y troceados. Cubre con dos o tres volúmenes de agua y cuece suavemente.",
+        "Tras una hora, retira y tritura las hortalizas; devuelve el puré a la olla.",
+        "Añade arroz y cuece 15–20 minutos según el tipo.",
+        "Saltea las setas con aceite, ajo y perejil. Incorpóralas cuando el arroz esté cocido; sala opcionalmente y decora con perejil."
+      ],
+      "allergens": [
+        "apio"
+      ],
+      "allergenStatus": "known",
+      "groups": [
+        "legumbres",
+        "cereales",
+        "hortalizas"
+      ],
+      "sourceId": "cs-lentejas-arroz-setas",
+      "evidenceChunkIds": [
+        "ev-lentejas-arroz-setas"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "arroz-alcachofas-setas",
+      "title": "Arroz con alcachofas y setas",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "arroz",
+          "name": "Arroz",
+          "quantity": 300,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "300 g"
+        },
+        {
+          "ingredientId": "cebolla",
+          "name": "Cebolla grande",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "alcachofa",
+          "name": "Alcachofas medianas",
+          "quantity": 3,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 unidad"
+        },
+        {
+          "ingredientId": "setas",
+          "name": "Setas secas",
+          "quantity": null,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "25–30 g"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 4,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "4 cucharada"
+        }
+      ],
+      "steps": [
+        "Pon las setas en agua fría al fuego. Al hervir, retíralas y escúrrelas, reservando el agua.",
+        "Pica la cebolla y limpia y corta las alcachofas. Cuécelas con aceite a fuego lento y tapadas.",
+        "Añade las setas, saltea e incorpora el arroz.",
+        "Vierte agua de las setas, aproximadamente dos veces el volumen del arroz. Hornea 15–16 minutos en horno precalentado.",
+        "Retira y deja reposar tapado 5–8 minutos."
+      ],
+      "allergens": [],
+      "allergenStatus": "known",
+      "groups": [
+        "cereales",
+        "hortalizas"
+      ],
+      "sourceId": "cs-arroz-alcachofas-setas",
+      "evidenceChunkIds": [
+        "ev-arroz-alcachofas-setas"
+      ],
+      "notes": [
+        "La fuente no indica temperatura del horno. El rango de setas se conserva sin elegir un valor arbitrario.",
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "arroz-integral-verduras",
+      "title": "Arroz integral con verduras",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "arroz-integral",
+          "name": "Arroz integral",
+          "quantity": 250,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "250 g"
+        },
+        {
+          "ingredientId": "agua",
+          "name": "Agua",
+          "quantity": 500,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "500 ml"
+        },
+        {
+          "ingredientId": "puerro",
+          "name": "Puerro",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "alcachofa",
+          "name": "Alcachofas",
+          "quantity": 4,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "4 unidad"
+        },
+        {
+          "ingredientId": "guisante",
+          "name": "Guisantes",
+          "quantity": 100,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "100 g"
+        },
+        {
+          "ingredientId": "champinon",
+          "name": "Champiñones",
+          "quantity": 100,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "100 g"
+        },
+        {
+          "ingredientId": "seta-ostra",
+          "name": "Setas de ostra",
+          "quantity": 100,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "100 g"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "perejil",
+          "name": "Perejil (brotes)",
+          "quantity": 4,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "4 unidad"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 2,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 cucharada"
+        },
+        {
+          "ingredientId": "limon",
+          "name": "Limón",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Cuece el arroz en el agua con una pizca de sal; baja el fuego, tapa y cocina 30–40 minutos, hasta absorber el agua.",
+        "Limpia las alcachofas, córtalas en gajos y resérvalas en agua con limón. Limpia y corta las setas.",
+        "Rehoga el puerro en aceite 5 minutos. Añade alcachofas, setas y ajo; cocina tapado otros 5 minutos.",
+        "Agrega guisantes y cocina 7 minutos. Mezcla con arroz y perejil; ajusta condimentos y cocina 2 minutos."
+      ],
+      "allergens": [],
+      "allergenStatus": "known",
+      "groups": [
+        "cereales",
+        "hortalizas",
+        "legumbres"
+      ],
+      "sourceId": "cs-arroz-integral-verduras",
+      "evidenceChunkIds": [
+        "ev-arroz-integral-verduras"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "crema-coliflor-brocoli",
+      "title": "Crema de coliflor, brócoli y almendras",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "coliflor",
+          "name": "Coliflor mediana",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "brocoli",
+          "name": "Brócoli pequeño",
+          "quantity": 0.5,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "0.5 unidad"
+        },
+        {
+          "ingredientId": "cebolla",
+          "name": "Cebolla",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "caldo-vegetal",
+          "name": "Agua o caldo vegetal",
+          "quantity": 1000,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "1 litro"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "almendra",
+          "name": "Almendras tostadas peladas",
+          "quantity": 20,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [
+            "frutos secos"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "20 g"
+        },
+        {
+          "ingredientId": "nuez-moscada",
+          "name": "Nuez moscada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "seco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 pizca"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": null,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Pocha la cebolla picada con aceite.",
+        "Añade coliflor en ramitos y agua o caldo; sala opcionalmente y cuece 20 minutos.",
+        "Cuece el brócoli al vapor, enfríalo en agua y reserva.",
+        "Maja ajo, almendras y nuez moscada; añade a la cazuela.",
+        "Cuando la coliflor esté hecha, tritura. Sirve con brócoli y almendra laminada."
+      ],
+      "allergens": [
+        "frutos secos"
+      ],
+      "allergenStatus": "unknown",
+      "groups": [
+        "hortalizas",
+        "frutos secos"
+      ],
+      "sourceId": "cs-crema-coliflor-brocoli",
+      "evidenceChunkIds": [
+        "ev-crema-coliflor-brocoli"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "espirales-calabacin",
+      "title": "Espirales con calabacín y albahaca",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "pasta-espirales",
+          "name": "Espirales de pasta",
+          "quantity": 250,
+          "unit": "g",
+          "state": "seco",
+          "allergens": [
+            "gluten"
+          ],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "250 g; comprobar huevo y trazas en etiqueta"
+        },
+        {
+          "ingredientId": "calabacin",
+          "name": "Calabacines",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "queso-curado",
+          "name": "Queso curado",
+          "quantity": 40,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [
+            "leche"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "40 g"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 3,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 unidad"
+        },
+        {
+          "ingredientId": "albahaca",
+          "name": "Albahaca fresca picada",
+          "quantity": 3,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 cucharada"
+        },
+        {
+          "ingredientId": "yogur-natural",
+          "name": "Yogur natural",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [
+            "leche"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "limon",
+          "name": "Limón",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "pinon",
+          "name": "Piñones",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 puñado"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 2,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 cucharada"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Hierve la pasta en abundante agua con un poco de aceite y sal.",
+        "Corta el calabacín en medias rodajas y lamina el ajo.",
+        "Saltea calabacín, ajo y piñones con aceite unos 3 minutos.",
+        "Añade yogur, queso rallado, albahaca, condimentos y zumo de limón.",
+        "Mezcla con la pasta escurrida y sirve."
+      ],
+      "allergens": [
+        "gluten",
+        "leche"
+      ],
+      "allergenStatus": "unknown",
+      "groups": [
+        "cereales",
+        "hortalizas",
+        "lacteos"
+      ],
+      "sourceId": "cs-espirales-calabacin",
+      "evidenceChunkIds": [
+        "ev-espirales-calabacin"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "lubina-hinojo",
+      "title": "Lubina al horno con hinojo y limón",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "lubina",
+          "name": "Lubinas individuales limpias",
+          "quantity": 4,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [
+            "pescado"
+          ],
+          "allergenStatus": "known",
+          "originalQuantityText": "4 unidad"
+        },
+        {
+          "ingredientId": "hinojo",
+          "name": "Hinojo fresco picado",
+          "quantity": 4,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "4 cucharada"
+        },
+        {
+          "ingredientId": "limon",
+          "name": "Limón",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "vino-blanco",
+          "name": "Vino blanco seco",
+          "quantity": null,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [
+            "sulfitos"
+          ],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "1 copa; volumen no indicado"
+        },
+        {
+          "ingredientId": "agua",
+          "name": "Agua",
+          "quantity": null,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Medio vaso; volumen no indicado"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 2,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 cucharada"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta",
+          "name": "Pimienta",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Sala las lubinas y úntalas con aceite. Corta medio limón en rodajas.",
+        "Mezcla ajo picado e hinojo y rellena las lubinas con la mezcla y una rodaja de limón.",
+        "Coloca en una bandeja y añade vino, zumo del medio limón restante y agua.",
+        "Hornea a 250 °C unos 20 minutos, regando con sus jugos a media cocción."
+      ],
+      "allergens": [
+        "pescado",
+        "sulfitos"
+      ],
+      "allergenStatus": "unknown",
+      "groups": [
+        "pescado"
+      ],
+      "sourceId": "cs-lubina-hinojo",
+      "evidenceChunkIds": [
+        "ev-lubina-hinojo"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    },
+    {
+      "id": "pollo-samfaina",
+      "title": "Pollo con samfaina",
+      "servings": 4,
+      "minutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "pollo-pechuga",
+          "name": "Pechuga de pollo",
+          "quantity": 500,
+          "unit": "g",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "500 g"
+        },
+        {
+          "ingredientId": "berenjena",
+          "name": "Berenjena",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "pimiento-rojo",
+          "name": "Pimientos rojos",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "tomate",
+          "name": "Tomates maduros grandes",
+          "quantity": 2,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "2 unidad"
+        },
+        {
+          "ingredientId": "ajo",
+          "name": "Dientes de ajo",
+          "quantity": 3,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "3 unidad"
+        },
+        {
+          "ingredientId": "vino-blanco",
+          "name": "Vino blanco",
+          "quantity": null,
+          "unit": "ml",
+          "state": "fresco",
+          "allergens": [
+            "sulfitos"
+          ],
+          "allergenStatus": "unknown",
+          "originalQuantityText": "1 copa; volumen no indicado"
+        },
+        {
+          "ingredientId": "laurel",
+          "name": "Hoja de laurel",
+          "quantity": 1,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "1 unidad"
+        },
+        {
+          "ingredientId": "aceite-oliva",
+          "name": "Aceite de oliva virgen",
+          "quantity": 5,
+          "unit": "cucharada",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "5 cucharada"
+        },
+        {
+          "ingredientId": "sal-yodada",
+          "name": "Sal yodada",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        },
+        {
+          "ingredientId": "pimienta-blanca",
+          "name": "Pimienta blanca",
+          "quantity": null,
+          "unit": "unidad",
+          "state": "fresco",
+          "allergens": [],
+          "allergenStatus": "known",
+          "originalQuantityText": "Cantidad no indicada en la fuente"
+        }
+      ],
+      "steps": [
+        "Corta pollo, pimientos y berenjena en dados. Lamina los ajos.",
+        "Dora los ajos con aceite, añade el pollo y cuece tapado a fuego suave 15 minutos.",
+        "Incorpora pimientos y laurel; cocina 2 minutos.",
+        "Añade berenjena, tomate rallado, vino, sal y pimienta. Cocina destapado, removiendo, hasta ablandar la berenjena. Ajusta condimentos."
+      ],
+      "allergens": [
+        "sulfitos"
+      ],
+      "allergenStatus": "unknown",
+      "groups": [
+        "carne blanca",
+        "hortalizas"
+      ],
+      "sourceId": "cs-pollo-samfaina",
+      "evidenceChunkIds": [
+        "ev-pollo-samfaina"
+      ],
+      "notes": [
+        "El tiempo total no consta en la fuente.",
+        "Alérgenos clasificados según ingredientes; revisar etiquetas y trazas de los productos comprados."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cs-crema-lentejas-rojas",
+      "title": "Crema de lentejas rojas, zanahoria y cilantro",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Crema-de-llenties-vermelles-pastanaga-i-coriandre",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2021-05-31",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2021-05-31. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-pate-lentejas-nueces",
+      "title": "Paté de lentejas y nueces",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Fals_pate_de_llenties_i_nous",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2023-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2023-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-crema-alubias-calabaza",
+      "title": "Crema de alubias blancas, calabaza y romero",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Crema-de-mongetes-blanques-carbassa-i-romani",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2021-02-22",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2021-02-22. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-garbanzos-curry",
+      "title": "Garbanzos con curry y calabaza",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Cigrons_amb_curri",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2023-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2023-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-estofado-tofu",
+      "title": "Estofado de verduras con tofu",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Estofat_de_verdures_amb_tofu",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2023-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2023-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-sopa-lentejas-mostaza",
+      "title": "Sopa de lentejas con mostaza",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Sopa_de_llenties_amb_mostassa",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2023-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2023-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-hamburguesas-alubias",
+      "title": "Hamburguesas de alubias rojas",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Hamburgueses_de_mongetes_vermelles",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2023-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2023-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-huevos-guisantes",
+      "title": "Huevos al plato con guisantes",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Ous_al_plat_amb_pesols",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2023-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2023-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-lentejas-arroz-setas",
+      "title": "Lentejas con arroz y setas",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Llenties-amb-arros-i-bolets",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2025-08-04",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2025-08-04. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-arroz-alcachofas-setas",
+      "title": "Arroz con alcachofas y setas",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/arros-carxofes-bolets",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2023-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2023-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-arroz-integral-verduras",
+      "title": "Arroz integral con verduras",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/arros-integral-verdures",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2023-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2023-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-crema-coliflor-brocoli",
+      "title": "Crema de coliflor, brócoli y almendras",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/crema-coliflor-broquil-ametlles",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2025-12-17",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2025-12-17. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-espirales-calabacin",
+      "title": "Espirales con calabacín y albahaca",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/espirals-carbasso-alfabrega",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2019-09-26",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2019-09-26. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-lubina-hinojo",
+      "title": "Lubina al horno con hinojo y limón",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/llobarro-forn-aroma-fonoll-llimona",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2019-07-17",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2019-07-17. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "cs-pollo-samfaina",
+      "title": "Pollo con samfaina",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/pollastre-samfaina",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": "2015-08-03",
+      "accessed": "2026-10-16",
+      "kind": "recipe",
+      "attribution": "Fuente: Generalitat de Catalunya, Canal Salut. Actualización: 2015-08-03. Traducción y síntesis al español: QuéComemos, 2026-10-16. Ingredientes y raciones conservados.",
+      "reuseReview": {
+        "reviewed": "2026-10-16",
+        "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+        "pageHasSpecificLicense": false,
+        "thirdPartyTextCreditFound": false,
+        "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+      }
+    },
+    {
+      "id": "aesan-recomendaciones",
+      "title": "Recomendaciones dietéticas y de actividad física",
+      "organization": "AESAN",
+      "url": "https://www.aesan.gob.es/nutricion/recomendaciones-dieteticas",
+      "license": "Referencia enlazada. No se redistribuye el documento ni sus imágenes.",
+      "updated": null,
+      "accessed": "2026-10-16",
+      "kind": "guidance",
+      "attribution": "AESAN. Guía derivada del informe del Comité Científico de 2022. Consulta 2026-10-16.",
+      "version": "Informe y recomendaciones de 2022; página consultada en 2026",
+      "downloadUrl": "https://www.aesan.gob.es/dam/jcr:303bc425-0df3-4124-abe9-75499ce573fa/RECOMENDACIONES_DIETETICAS.pdf",
+      "rules": [
+        {
+          "id": "adulto-legumbres",
+          "population": "adultos",
+          "group": "legumbres",
+          "min": 4,
+          "max": null,
+          "unit": "raciones/semana",
+          "page": 6,
+          "evidenceChunkId": "ev-frecuencias-aesan",
+          "comparison": "reference-only",
+          "edition": "diciembre de 2022"
+        },
+        {
+          "id": "adulto-pescado",
+          "population": "adultos",
+          "group": "pescado",
+          "min": 3,
+          "max": null,
+          "unit": "raciones/semana",
+          "page": 8,
+          "evidenceChunkId": "ev-frecuencias-aesan",
+          "comparison": "reference-only",
+          "edition": "diciembre de 2022"
+        },
+        {
+          "id": "adulto-huevos",
+          "population": "adultos",
+          "group": "huevos",
+          "min": 0,
+          "max": 4,
+          "unit": "huevos medianos/semana",
+          "page": 9,
+          "evidenceChunkId": "ev-frecuencias-aesan",
+          "comparison": "reference-only",
+          "edition": "diciembre de 2022"
+        },
+        {
+          "id": "adulto-carne",
+          "population": "adultos",
+          "group": "carne",
+          "min": 0,
+          "max": 3,
+          "unit": "raciones/semana",
+          "page": 10,
+          "evidenceChunkId": "ev-frecuencias-aesan",
+          "comparison": "reference-only",
+          "edition": "diciembre de 2022"
+        }
+      ]
+    },
+    {
+      "id": "guia-escolar-2020",
+      "title": "La alimentación saludable en la etapa escolar. Guía para familias y escuelas",
+      "organization": "Agencia de Salud Pública de Cataluña",
+      "url": "https://salutpublica.gencat.cat/web/.content/minisite/aspcat/promocio_salut/alimentacio_saludable/02Publicacions/pub_alim_inf/guia_alimentacio_saludable_etapa_escolar/guia_alimentacion_etapa_escolar.pdf",
+      "license": "Solo referencia y breve paráfrasis atribuida; no se redistribuye el PDF ni fotografías Thinkstock.",
+      "updated": "2020-06-01",
+      "accessed": "2026-10-16",
+      "kind": "guidance",
+      "attribution": "Agencia de Salud Pública de Cataluña. Barcelona, junio de 2020. La fecha representa el mes de edición; día exacto no publicado.",
+      "version": "Edición en español, junio de 2020 · 86 páginas",
+      "rules": [
+        {
+          "id": "escolar-legumbres",
+          "population": "etapa escolar",
+          "group": "legumbres",
+          "min": 3,
+          "max": 4,
+          "unit": "veces/semana",
+          "page": 12,
+          "evidenceChunkId": "ev-frecuencias-escolares",
+          "comparison": "reference-only",
+          "edition": "junio de 2020"
+        },
+        {
+          "id": "escolar-pescado",
+          "population": "etapa escolar",
+          "group": "pescado",
+          "min": 2,
+          "max": 3,
+          "unit": "veces/semana",
+          "page": 12,
+          "evidenceChunkId": "ev-frecuencias-escolares",
+          "comparison": "reference-only",
+          "edition": "junio de 2020"
+        },
+        {
+          "id": "escolar-huevos",
+          "population": "etapa escolar",
+          "group": "huevos",
+          "min": 3,
+          "max": 4,
+          "unit": "veces/semana",
+          "page": 12,
+          "evidenceChunkId": "ev-frecuencias-escolares",
+          "comparison": "reference-only",
+          "edition": "junio de 2020"
+        }
+      ]
+    },
+    {
+      "id": "canal-salut-recetario",
+      "title": "Recetas saludables · buscador oficial",
+      "organization": "Generalitat de Catalunya · Canal Salut",
+      "url": "https://canalsalut.gencat.cat/ca/vida-saludable/alimentacio/receptes-saludables/",
+      "license": "Reutilización de información pública de la Generalitat; atribución y fecha; prevalece cualquier licencia específica. https://web.gencat.cat/ca/avis-legal",
+      "updated": null,
+      "accessed": "2026-10-16",
+      "kind": "guidance",
+      "attribution": "Generalitat de Catalunya, Canal Salut. Índice vivo de recetas; sin versión o actualización visible."
+    },
+    {
+      "id": "familia-salud-100",
+      "title": "100 recetas saludables para disfrutar en familia",
+      "organization": "Familia y Salud · Asociación Española de Pediatría de Atención Primaria",
+      "url": "https://www.familiaysalud.es/sites/default/files/100_recetas_saludables_para_disfrutar_en_familia_fys_compr_1_1.pdf",
+      "license": "Solo enlace de consulta/descarga. No se redistribuye el documento ni se presupone licencia abierta.",
+      "updated": null,
+      "accessed": "2026-10-16",
+      "kind": "guidance",
+      "attribution": "Familia y Salud. PDF accesible de 113 páginas. Sin fecha/versionado verificable en la URL; consulta 2026-10-16.",
+      "version": "PDF servido en el enlace original, 113 páginas"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "ev-crema-lentejas-rojas",
+      "sourceId": "cs-crema-lentejas-rojas",
+      "recipeId": "crema-lentejas-rojas",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Crema de lentejas rojas, zanahoria y cilantro. Para 4 personas. Lentejas rojas peladas: 150 g; Cebolla: 1 unidad; Puerro (si es temporada): 1 unidad; Zanahoria: 3 unidad; Cilantro fresco (brotes): 10–12 brotes; Dientes de ajo: 2 unidad; Caldo vegetal o agua: 1,5 litros de caldo vegetal o agua; Aceite de oliva virgen: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente; Sal yodada: Cantidad no indicada en la fuente. Preparación: Rehoga la cebolla y las zanahorias troceadas con aceite. Incorpora el puerro y cilantro; reserva unas hojas. Cocina 5 minutos. Vierte la mitad del caldo, condimenta y cuece 15 minutos. Tritura. Añade el caldo restante y las lentejas. Cuece 20 minutos, hasta que estén hechas; decora con cilantro."
+    },
+    {
+      "id": "ev-pate-lentejas-nueces",
+      "sourceId": "cs-pate-lentejas-nueces",
+      "recipeId": "pate-lentejas-nueces",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Paté de lentejas y nueces. Para 4 personas. Lentejas cocidas: 400 g; Nueces peladas: 80 g; Dientes de ajo: 2 unidad; Limones: 2 unidad; Comino en polvo: 1 cucharadita; Aceite de oliva virgen: 4 cucharada; Sal yodada: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente. Preparación: Pela y pica el ajo. Tritura las lentejas con nueces, ajo, zumo de limón, aceite, comino, sal y pimienta. Ajusta la consistencia con un poco de agua o limón si hace falta. La fuente propone servirlo con ensalada y pan o en bocadillos."
+    },
+    {
+      "id": "ev-crema-alubias-calabaza",
+      "sourceId": "cs-crema-alubias-calabaza",
+      "recipeId": "crema-alubias-calabaza",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Crema de alubias blancas, calabaza y romero. Para 4 personas. Alubias blancas cocidas: 400 g; Calabaza: 500 g; Cebolla: 1 unidad; Dientes de ajo: 2 unidad; Caldo vegetal o agua: Hasta cubrir los ingredientes; Romero (brote): 1 unidad; Aceite de oliva virgen: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente; Sal yodada: Cantidad no indicada en la fuente. Preparación: Pela la calabaza y córtala en dados. Rehoga la cebolla picada y los ajos enteros en aceite. Añade calabaza y condimentos; cocina unos minutos. Cubre con caldo, tapa y cuece 10–15 minutos. Incorpora alubias y romero picado. Cuece unos minutos y tritura hasta obtener una crema fina."
+    },
+    {
+      "id": "ev-garbanzos-curry",
+      "sourceId": "cs-garbanzos-curry",
+      "recipeId": "garbanzos-curry",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Garbanzos con curry y calabaza. Para 4 personas. Garbanzos cocidos: 800 g; Cebolla: 1 unidad; Tomate triturado: 500 ml; Calabaza: 500 g; Cilantro (brotes): 8 unidad; Curry: 1 cucharada sopera; Aceite de oliva virgen: 3 cucharada; Sal yodada: Cantidad no indicada en la fuente. Preparación: Pocha la cebolla picada en una cazuela con aceite. Añade curry y sal opcional; cocina 1 minuto. Agrega tomate y cocina 5 minutos. Incorpora calabaza en dados pequeños; cocina 8–10 minutos. Añade garbanzos y cocina 5–8 minutos más. Sirve con cilantro limpio y picado."
+    },
+    {
+      "id": "ev-estofado-tofu",
+      "sourceId": "cs-estofado-tofu",
+      "recipeId": "estofado-tofu",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Estofado de verduras con tofu. Para 4 personas. Tofu: 400 g; Cebolla: 2 unidad; Puerro: 1 unidad; Zanahoria: 3 unidad; Nabos: 2 unidad; Alcachofas: 2 unidad; Guisantes (opcionales según temporada): 200 g; Champiñones: 150 g; Limón: 0.5 unidad; Hojas de laurel: 2 unidad; Orégano: 1 cucharada; Aceite de oliva virgen: Cantidad no indicada en la fuente; Salsa de soja: 2 cucharadas soperas; comprobar etiqueta; Almendras: 25 g; Dientes de ajo: 3 unidad; Pan tostado (rebanada pequeña): 1 rebanada pequeña; Sal yodada: Cantidad no indicada en la fuente. Preparación: Limpia y corta cebolla, puerro, zanahorias y nabos. Trocea las alcachofas y resérvalas en agua con limón. Limpia y corta los champiñones; corta el tofu en dados. Rehoga cebolla, puerro, zanahoria y nabo 5 minutos, tapados. Añade champiñones, tofu, hierbas y sal opcional. Cocina 5 minutos. Añade un dedo de agua y cuece tapado 10 minutos. Incorpora alcachofas y guisantes; cocina unos 7 minutos, hasta tiernos. Prepara una picada de almendras, ajo y pan. Añádela con la salsa de soja, remueve y deja reposar."
+    },
+    {
+      "id": "ev-sopa-lentejas-mostaza",
+      "sourceId": "cs-sopa-lentejas-mostaza",
+      "recipeId": "sopa-lentejas-mostaza",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Sopa de lentejas con mostaza. Para 4 personas. Lentejas pardinas: 225 g; Puerro: 1 unidad; Zanahoria: 1 unidad; Cebolla: 1 unidad; Mostaza de Dijon: 2 cucharadas soperas; Caldo vegetal: 1 litro; Aceite de oliva virgen: 1 cucharada; Hoja de laurel: 1 unidad; Sal yodada: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente. Preparación: Pocha la cebolla picada en el aceite. Añade zanahoria y puerro cortados finos; cocina 5 minutos. Incorpora mostaza y cocina 1 minuto. Añade lentejas, 750 ml del caldo y laurel. Cuece suavemente hasta ablandar; añade más caldo o agua si hace falta. Ajusta sal y pimienta."
+    },
+    {
+      "id": "ev-hamburguesas-alubias",
+      "sourceId": "cs-hamburguesas-alubias",
+      "recipeId": "hamburguesas-alubias",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Hamburguesas de alubias rojas. Para 4 personas. Alubias cocidas: 700 g; Cebolletas pequeñas: 6 unidad; Zanahorias medianas: 3 unidad; Dientes de ajo: 2 unidad; Perejil picado: Cantidad no indicada en la fuente; Pan rallado: 50 g; comprobar etiqueta; Pimienta: Cantidad no indicada en la fuente; Comino: Al gusto; Aceite de oliva virgen: 3 cucharada; Sal yodada: Cantidad no indicada en la fuente. Preparación: Ralla la zanahoria y pica el ajo y la cebolleta. Tritura las alubias y mézclalas con los demás ingredientes. Forma unas 12 hamburguesas y rebózalas en pan rallado. Dóralas en sartén antiadherente o en el horno."
+    },
+    {
+      "id": "ev-huevos-guisantes",
+      "sourceId": "cs-huevos-guisantes",
+      "recipeId": "huevos-guisantes",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Huevos al plato con guisantes. Para 4 personas. Huevos grandes: 4 unidad; Tomates maduros: 250 g; Guisantes: 200 g; Ajos tiernos: 1 manojo; Aceite de oliva virgen: 2 cucharada; Sal yodada: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente. Preparación: Limpia y ralla los tomates. Hierve los guisantes unos 7 minutos. Dora los ajos picados en aceite. Añade guisantes, tomate y condimentos; cocina 10 minutos. Reparte en cuatro cazuelitas. Coloca una clara en cada una y hornea a 190 °C unos 3–4 minutos, hasta cuajar. Añade las yemas y hornea unos 2 minutos más."
+    },
+    {
+      "id": "ev-lentejas-arroz-setas",
+      "sourceId": "cs-lentejas-arroz-setas",
+      "recipeId": "lentejas-arroz-setas",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Lentejas con arroz y setas. Para 4 personas. Lentejas secas: 200 g; Arroz, preferiblemente integral: 100 g; Apio (rama): 1 unidad; Zanahoria: 1 unidad; Puerro: 1 unidad; Hoja de laurel: 1 unidad; Dientes de ajo: 1 unidad; Perejil (brotes): 8 unidad; Setas variadas: 250 g; Aceite de oliva virgen: Cantidad no indicada en la fuente; Sal yodada: Cantidad no indicada en la fuente. Preparación: Remoja las lentejas al menos 6 horas. Ponlas en una olla con apio, laurel, puerro y zanahoria limpios y troceados. Cubre con dos o tres volúmenes de agua y cuece suavemente. Tras una hora, retira y tritura las hortalizas; devuelve el puré a la olla. Añade arroz y cuece 15–20 minutos según el tipo. Saltea las setas con aceite, ajo y perejil. Incorpóralas cuando el arroz esté cocido; sala opcionalmente y decora con perejil."
+    },
+    {
+      "id": "ev-arroz-alcachofas-setas",
+      "sourceId": "cs-arroz-alcachofas-setas",
+      "recipeId": "arroz-alcachofas-setas",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Arroz con alcachofas y setas. Para 4 personas. Arroz: 300 g; Cebolla grande: 1 unidad; Alcachofas medianas: 3 unidad; Setas secas: 25–30 g; Aceite de oliva virgen: 4 cucharada. Preparación: Pon las setas en agua fría al fuego. Al hervir, retíralas y escúrrelas, reservando el agua. Pica la cebolla y limpia y corta las alcachofas. Cuécelas con aceite a fuego lento y tapadas. Añade las setas, saltea e incorpora el arroz. Vierte agua de las setas, aproximadamente dos veces el volumen del arroz. Hornea 15–16 minutos en horno precalentado. Retira y deja reposar tapado 5–8 minutos. La fuente no indica temperatura del horno. El rango de setas se conserva sin elegir un valor arbitrario."
+    },
+    {
+      "id": "ev-arroz-integral-verduras",
+      "sourceId": "cs-arroz-integral-verduras",
+      "recipeId": "arroz-integral-verduras",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Arroz integral con verduras. Para 4 personas. Arroz integral: 250 g; Agua: 500 ml; Puerro: 1 unidad; Alcachofas: 4 unidad; Guisantes: 100 g; Champiñones: 100 g; Setas de ostra: 100 g; Dientes de ajo: 2 unidad; Perejil (brotes): 4 unidad; Aceite de oliva virgen: 2 cucharada; Limón: 1 unidad; Sal yodada: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente. Preparación: Cuece el arroz en el agua con una pizca de sal; baja el fuego, tapa y cocina 30–40 minutos, hasta absorber el agua. Limpia las alcachofas, córtalas en gajos y resérvalas en agua con limón. Limpia y corta las setas. Rehoga el puerro en aceite 5 minutos. Añade alcachofas, setas y ajo; cocina tapado otros 5 minutos. Agrega guisantes y cocina 7 minutos. Mezcla con arroz y perejil; ajusta condimentos y cocina 2 minutos."
+    },
+    {
+      "id": "ev-crema-coliflor-brocoli",
+      "sourceId": "cs-crema-coliflor-brocoli",
+      "recipeId": "crema-coliflor-brocoli",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Crema de coliflor, brócoli y almendras. Para 4 personas. Coliflor mediana: 1 unidad; Brócoli pequeño: 0.5 unidad; Cebolla: 1 unidad; Agua o caldo vegetal: 1 litro; Dientes de ajo: 1 unidad; Almendras tostadas peladas: 20 g; Nuez moscada: 1 pizca; Aceite de oliva virgen: Cantidad no indicada en la fuente; Sal yodada: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente. Preparación: Pocha la cebolla picada con aceite. Añade coliflor en ramitos y agua o caldo; sala opcionalmente y cuece 20 minutos. Cuece el brócoli al vapor, enfríalo en agua y reserva. Maja ajo, almendras y nuez moscada; añade a la cazuela. Cuando la coliflor esté hecha, tritura. Sirve con brócoli y almendra laminada."
+    },
+    {
+      "id": "ev-espirales-calabacin",
+      "sourceId": "cs-espirales-calabacin",
+      "recipeId": "espirales-calabacin",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Espirales con calabacín y albahaca. Para 4 personas. Espirales de pasta: 250 g; comprobar huevo y trazas en etiqueta; Calabacines: 2 unidad; Queso curado: 40 g; Dientes de ajo: 3 unidad; Albahaca fresca picada: 3 cucharada; Yogur natural: 1 unidad; Limón: 1 unidad; Piñones: 1 puñado; Aceite de oliva virgen: 2 cucharada; Sal yodada: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente. Preparación: Hierve la pasta en abundante agua con un poco de aceite y sal. Corta el calabacín en medias rodajas y lamina el ajo. Saltea calabacín, ajo y piñones con aceite unos 3 minutos. Añade yogur, queso rallado, albahaca, condimentos y zumo de limón. Mezcla con la pasta escurrida y sirve."
+    },
+    {
+      "id": "ev-lubina-hinojo",
+      "sourceId": "cs-lubina-hinojo",
+      "recipeId": "lubina-hinojo",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Lubina al horno con hinojo y limón. Para 4 personas. Lubinas individuales limpias: 4 unidad; Hinojo fresco picado: 4 cucharada; Limón: 1 unidad; Dientes de ajo: 2 unidad; Vino blanco seco: 1 copa; volumen no indicado; Agua: Medio vaso; volumen no indicado; Aceite de oliva virgen: 2 cucharada; Sal yodada: Cantidad no indicada en la fuente; Pimienta: Cantidad no indicada en la fuente. Preparación: Sala las lubinas y úntalas con aceite. Corta medio limón en rodajas. Mezcla ajo picado e hinojo y rellena las lubinas con la mezcla y una rodaja de limón. Coloca en una bandeja y añade vino, zumo del medio limón restante y agua. Hornea a 250 °C unos 20 minutos, regando con sus jugos a media cocción."
+    },
+    {
+      "id": "ev-pollo-samfaina",
+      "sourceId": "cs-pollo-samfaina",
+      "recipeId": "pollo-samfaina",
+      "section": "Ingredientes y elaboración · traducción resumida",
+      "page": null,
+      "text": "Pollo con samfaina. Para 4 personas. Pechuga de pollo: 500 g; Berenjena: 1 unidad; Pimientos rojos: 2 unidad; Tomates maduros grandes: 2 unidad; Dientes de ajo: 3 unidad; Vino blanco: 1 copa; volumen no indicado; Hoja de laurel: 1 unidad; Aceite de oliva virgen: 5 cucharada; Sal yodada: Cantidad no indicada en la fuente; Pimienta blanca: Cantidad no indicada en la fuente. Preparación: Corta pollo, pimientos y berenjena en dados. Lamina los ajos. Dora los ajos con aceite, añade el pollo y cuece tapado a fuego suave 15 minutos. Incorpora pimientos y laurel; cocina 2 minutos. Añade berenjena, tomate rallado, vino, sal y pimienta. Cocina destapado, removiendo, hasta ablandar la berenjena. Ajusta condimentos."
+    },
+    {
+      "id": "ev-desayuno-escolar",
+      "sourceId": "guia-escolar-2020",
+      "section": "2.3 Distribución de comidas · desayuno y media mañana, página impresa 15",
+      "page": 15,
+      "text": "Para escolares, la guía propone combinar cereales integrales, fruta fresca y leche o yogur natural sin azúcar (o alternativa enriquecida adecuada). El desayuno puede repartirse entre casa y media mañana según hambre y horarios. Agua como bebida."
+    },
+    {
+      "id": "ev-merienda-escolar",
+      "sourceId": "guia-escolar-2020",
+      "section": "2.3 Distribución de comidas · ejemplos, página impresa 17",
+      "page": 17,
+      "text": "Ideas escolares adaptables: pan integral con tomate y aceite; yogur con manzana y muesli; fruta fresca a media mañana. Ajustar siempre a alergias y preferencias; son ideas, no recetas con raciones documentadas."
+    },
+    {
+      "id": "ev-variedad-aesan",
+      "sourceId": "aesan-recomendaciones",
+      "section": "Orientación alimentaria de la página de recomendaciones",
+      "page": null,
+      "text": "AESAN recomienda dar más presencia a alimentos vegetales y cereales integrales, preferir aceite de oliva y agua y reducir carnes procesadas, azúcar y sal. Estas orientaciones generales no determinan las cantidades infantiles."
+    },
+    {
+      "id": "ev-frecuencias-aesan",
+      "sourceId": "aesan-recomendaciones",
+      "section": "Guía diciembre 2022, páginas impresas 6, 8, 9 y 10",
+      "page": 6,
+      "text": "Referencia adulta de AESAN, diciembre de 2022: legumbres al menos cuatro raciones semanales; pescado al menos tres; hasta cuatro huevos medianos y hasta tres raciones de carne. Son raciones, no apariciones de ingredientes; no se extrapolan a escolares."
+    },
+    {
+      "id": "ev-frecuencias-escolares",
+      "sourceId": "guia-escolar-2020",
+      "section": "Orientación escolar, página impresa 12, edición junio 2020",
+      "page": 12,
+      "text": "Referencia escolar de la guía de junio de 2020: legumbres y huevos tres o cuatro veces semanales; pescado dos o tres. La aplicación muestra la edición y población; no convierte cantidades ni deriva porciones de la edad."
+    }
+  ],
+  "menus": [
+    {
+      "id": "demo-week-2026-10-26",
+      "weekStart": "2026-10-26",
+      "entries": [
+        {
+          "date": "2026-11-01",
+          "meal": "comida",
+          "recipeId": "lentejas-arroz-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-lentejas-arroz-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-01",
+          "meal": "cena",
+          "recipeId": "crema-lentejas-rojas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-lentejas-rojas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-week-2026-11-02",
+      "weekStart": "2026-11-02",
+      "entries": [
+        {
+          "date": "2026-11-02",
+          "meal": "comida",
+          "recipeId": "arroz-integral-verduras",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-integral-verduras"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-02",
+          "meal": "cena",
+          "recipeId": "espirales-calabacin",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-espirales-calabacin"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-03",
+          "meal": "comida",
+          "recipeId": "garbanzos-curry",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-garbanzos-curry"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-03",
+          "meal": "cena",
+          "recipeId": "crema-coliflor-brocoli",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-coliflor-brocoli"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-04",
+          "meal": "comida",
+          "recipeId": "pollo-samfaina",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-pollo-samfaina"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-04",
+          "meal": "cena",
+          "recipeId": "pate-lentejas-nueces",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-pate-lentejas-nueces"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-05",
+          "meal": "comida",
+          "recipeId": "arroz-alcachofas-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-alcachofas-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-05",
+          "meal": "cena",
+          "recipeId": "sopa-lentejas-mostaza",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-sopa-lentejas-mostaza"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-06",
+          "meal": "comida",
+          "recipeId": "hamburguesas-alubias",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-hamburguesas-alubias"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-06",
+          "meal": "cena",
+          "recipeId": "huevos-guisantes",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-huevos-guisantes"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-07",
+          "meal": "comida",
+          "recipeId": "estofado-tofu",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-estofado-tofu"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-07",
+          "meal": "cena",
+          "recipeId": "crema-alubias-calabaza",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-alubias-calabaza"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-08",
+          "meal": "comida",
+          "recipeId": "lentejas-arroz-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-lentejas-arroz-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-08",
+          "meal": "cena",
+          "recipeId": "lubina-hinojo",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-lubina-hinojo"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-week-2026-11-09",
+      "weekStart": "2026-11-09",
+      "entries": [
+        {
+          "date": "2026-11-09",
+          "meal": "comida",
+          "recipeId": "arroz-integral-verduras",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-integral-verduras"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-09",
+          "meal": "cena",
+          "recipeId": "crema-lentejas-rojas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-lentejas-rojas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-10",
+          "meal": "comida",
+          "recipeId": "garbanzos-curry",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-garbanzos-curry"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-10",
+          "meal": "cena",
+          "recipeId": "espirales-calabacin",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-espirales-calabacin"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-11",
+          "meal": "comida",
+          "recipeId": "pollo-samfaina",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-pollo-samfaina"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-11",
+          "meal": "cena",
+          "recipeId": "crema-coliflor-brocoli",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-coliflor-brocoli"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-12",
+          "meal": "comida",
+          "recipeId": "arroz-alcachofas-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-alcachofas-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-12",
+          "meal": "cena",
+          "recipeId": "pate-lentejas-nueces",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-pate-lentejas-nueces"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-13",
+          "meal": "comida",
+          "recipeId": "hamburguesas-alubias",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-hamburguesas-alubias"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-13",
+          "meal": "cena",
+          "recipeId": "sopa-lentejas-mostaza",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-sopa-lentejas-mostaza"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-14",
+          "meal": "comida",
+          "recipeId": "estofado-tofu",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-estofado-tofu"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-14",
+          "meal": "cena",
+          "recipeId": "huevos-guisantes",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-huevos-guisantes"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-15",
+          "meal": "comida",
+          "recipeId": "lentejas-arroz-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-lentejas-arroz-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-15",
+          "meal": "cena",
+          "recipeId": "crema-alubias-calabaza",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-alubias-calabaza"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-week-2026-11-16",
+      "weekStart": "2026-11-16",
+      "entries": [
+        {
+          "date": "2026-11-16",
+          "meal": "comida",
+          "recipeId": "arroz-integral-verduras",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-integral-verduras"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-16",
+          "meal": "cena",
+          "recipeId": "lubina-hinojo",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-lubina-hinojo"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-17",
+          "meal": "comida",
+          "recipeId": "garbanzos-curry",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-garbanzos-curry"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-17",
+          "meal": "cena",
+          "recipeId": "crema-lentejas-rojas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-lentejas-rojas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-18",
+          "meal": "comida",
+          "recipeId": "pollo-samfaina",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-pollo-samfaina"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-18",
+          "meal": "cena",
+          "recipeId": "espirales-calabacin",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-espirales-calabacin"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-19",
+          "meal": "comida",
+          "recipeId": "arroz-alcachofas-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-alcachofas-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-19",
+          "meal": "cena",
+          "recipeId": "crema-coliflor-brocoli",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-coliflor-brocoli"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-20",
+          "meal": "comida",
+          "recipeId": "hamburguesas-alubias",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-hamburguesas-alubias"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-20",
+          "meal": "cena",
+          "recipeId": "pate-lentejas-nueces",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-pate-lentejas-nueces"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-21",
+          "meal": "comida",
+          "recipeId": "estofado-tofu",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-estofado-tofu"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-21",
+          "meal": "cena",
+          "recipeId": "sopa-lentejas-mostaza",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-sopa-lentejas-mostaza"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-22",
+          "meal": "comida",
+          "recipeId": "lentejas-arroz-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-lentejas-arroz-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-22",
+          "meal": "cena",
+          "recipeId": "huevos-guisantes",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-huevos-guisantes"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-week-2026-11-23",
+      "weekStart": "2026-11-23",
+      "entries": [
+        {
+          "date": "2026-11-23",
+          "meal": "comida",
+          "recipeId": "arroz-integral-verduras",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-integral-verduras"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-23",
+          "meal": "cena",
+          "recipeId": "crema-alubias-calabaza",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-alubias-calabaza"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-24",
+          "meal": "comida",
+          "recipeId": "garbanzos-curry",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-garbanzos-curry"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-24",
+          "meal": "cena",
+          "recipeId": "lubina-hinojo",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-lubina-hinojo"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-25",
+          "meal": "comida",
+          "recipeId": "pollo-samfaina",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-pollo-samfaina"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-25",
+          "meal": "cena",
+          "recipeId": "crema-lentejas-rojas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-lentejas-rojas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-26",
+          "meal": "comida",
+          "recipeId": "arroz-alcachofas-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-alcachofas-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-26",
+          "meal": "cena",
+          "recipeId": "espirales-calabacin",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-espirales-calabacin"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-27",
+          "meal": "comida",
+          "recipeId": "hamburguesas-alubias",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-hamburguesas-alubias"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-27",
+          "meal": "cena",
+          "recipeId": "crema-coliflor-brocoli",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-crema-coliflor-brocoli"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-28",
+          "meal": "comida",
+          "recipeId": "estofado-tofu",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-estofado-tofu"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-28",
+          "meal": "cena",
+          "recipeId": "pate-lentejas-nueces",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-pate-lentejas-nueces"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-29",
+          "meal": "comida",
+          "recipeId": "lentejas-arroz-setas",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-lentejas-arroz-setas"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-29",
+          "meal": "cena",
+          "recipeId": "sopa-lentejas-mostaza",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-sopa-lentejas-mostaza"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-week-2026-11-30",
+      "weekStart": "2026-11-30",
+      "entries": [
+        {
+          "date": "2026-11-30",
+          "meal": "comida",
+          "recipeId": "arroz-integral-verduras",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-arroz-integral-verduras"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        },
+        {
+          "date": "2026-11-30",
+          "meal": "cena",
+          "recipeId": "huevos-guisantes",
+          "locked": false,
+          "evidenceChunkIds": [
+            "ev-huevos-guisantes"
+          ],
+          "rationale": "Calendario ficticio preparado manualmente para explorar la aplicación. No evaluado como dieta completa ni generado mediante IA.",
+          "mode": "demo"
+        }
+      ]
+    }
+  ],
+  "pantry": [],
+  "shopping": [],
+  "settings": {
+    "packages": []
+  },
+  "demoNotice": "Familia y calendario ficticios. Las porciones 1 son parámetros de ejemplo editables y no recomendaciones por edad. Recetas documentadas reales, con cantidades y procedencia conservadas."
+}

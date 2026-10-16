@@ -1,0 +1,23 @@
+{
+  "packages": [
+    {
+      "name": "@mlc-ai/web-llm",
+      "version": "0.2.86",
+      "url": "https://registry.npmjs.org/@mlc-ai/web-llm/-/web-llm-0.2.86.tgz",
+      "integrity": "sha512-plciXBCYtY7iTKHzEcsqOfSO+s5u8NqMYFPnHmRbsN8CEdKcolgXIoGLPbzO6FtJHV43m7YP00x6qQ6Kb8CJJw=="
+    },
+    {
+      "name": "pdfjs-dist",
+      "version": "6.4.299",
+      "url": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-6.4.299.tgz",
+      "integrity": "sha512-AVl138zALtfaAPvADulE0PZThbYzCBS79nL4pOSL/6Sm/4AH5A21BD9VHt97OlCuzJuCpmeZtAtkinisF4Vb1g=="
+    }
+  ],
+  "wasm": {
+    "path": "vendor/model.wasm",
+    "url": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/00fe7a40e57e5e8eb9fef87526a4bf28ad5846c0/web-llm-models/v0_2_86/base/Qwen2-0.5B-Instruct-q4f16_1_cs1k-webgpu.wasm",
+    "revision": "00fe7a40e57e5e8eb9fef87526a4bf28ad5846c0",
+    "bytes": 5552384,
+    "sha256": "a618074b30f7d022ab7886d0cf57be2aefdac342901d43bee4e19110e1b4b739"
+  }
+}

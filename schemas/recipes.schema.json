@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://quecomemos.local/schemas/recipes.schema.json","title":"QuéComemos catálogo de recetas 1.0.0","allOf":[{"$ref":"bundle.schema.json"}],"properties":{"kind":{"const":"recipes"}},"$comment":"Las recetas requieren fuente y fragmentos propios existentes; una guía no puede actuar como receta."}

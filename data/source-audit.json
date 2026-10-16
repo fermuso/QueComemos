@@ -1,0 +1,186 @@
+{
+  "accessed": "2026-10-16",
+  "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+  "method": "Consulta web de contenido y aviso legal, más comprobación HTTP individual de fecha y ausencia de crédito textual a terceros. No se descargan ni reutilizan imágenes.",
+  "recipes": [
+    {
+      "id": "cs-crema-lentejas-rojas",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Crema-de-llenties-vermelles-pastanaga-i-coriandre",
+      "updated": "2021-05-31",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-pate-lentejas-nueces",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Fals_pate_de_llenties_i_nous",
+      "updated": "2023-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-crema-alubias-calabaza",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Crema-de-mongetes-blanques-carbassa-i-romani",
+      "updated": "2021-02-22",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-garbanzos-curry",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Cigrons_amb_curri",
+      "updated": "2023-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-estofado-tofu",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Estofat_de_verdures_amb_tofu",
+      "updated": "2023-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-sopa-lentejas-mostaza",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Sopa_de_llenties_amb_mostassa",
+      "updated": "2023-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-hamburguesas-alubias",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Hamburgueses_de_mongetes_vermelles",
+      "updated": "2023-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-huevos-guisantes",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Ous_al_plat_amb_pesols",
+      "updated": "2023-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-lentejas-arroz-setas",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/Llenties-amb-arros-i-bolets",
+      "updated": "2025-08-04",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-arroz-alcachofas-setas",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/arros-carxofes-bolets",
+      "updated": "2023-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-arroz-integral-verduras",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/arros-integral-verdures",
+      "updated": "2023-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-crema-coliflor-brocoli",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/crema-coliflor-broquil-ametlles",
+      "updated": "2025-12-17",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-espirales-calabacin",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/espirals-carbasso-alfabrega",
+      "updated": "2019-09-26",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-lubina-hinojo",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/llobarro-forn-aroma-fonoll-llimona",
+      "updated": "2019-07-17",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    },
+    {
+      "id": "cs-pollo-samfaina",
+      "url": "https://canalsalut.gencat.cat/ca/detalls/article/pollastre-samfaina",
+      "updated": "2015-08-03",
+      "reviewed": "2026-10-16",
+      "policyUrl": "https://web.gencat.cat/ca/avis-legal",
+      "pageHasSpecificLicense": false,
+      "thirdPartyTextCreditFound": false,
+      "excludedAssets": "Sin fotografías, logotipos ni diseño original."
+    }
+  ],
+  "originalReferences": [
+    {
+      "id": "aesan-recomendaciones",
+      "url": "https://www.aesan.gob.es/nutricion/recomendaciones-dieteticas",
+      "httpAccessible": true,
+      "version": "Informe y recomendaciones de 2022; página consultada en 2026",
+      "redistributedDocument": false
+    },
+    {
+      "id": "guia-escolar-2020",
+      "url": "https://salutpublica.gencat.cat/web/.content/minisite/aspcat/promocio_salut/alimentacio_saludable/02Publicacions/pub_alim_inf/guia_alimentacio_saludable_etapa_escolar/guia_alimentacion_etapa_escolar.pdf",
+      "httpAccessible": true,
+      "version": "Edición en español, junio de 2020 · 86 páginas",
+      "redistributedDocument": false
+    },
+    {
+      "id": "canal-salut-recetario",
+      "url": "https://canalsalut.gencat.cat/ca/vida-saludable/alimentacio/receptes-saludables/",
+      "httpAccessible": true,
+      "redistributedDocument": false
+    },
+    {
+      "id": "familia-salud-100",
+      "url": "https://www.familiaysalud.es/sites/default/files/100_recetas_saludables_para_disfrutar_en_familia_fys_compr_1_1.pdf",
+      "httpAccessible": true,
+      "version": "PDF servido en el enlace original, 113 páginas",
+      "redistributedDocument": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quecomemos.local/schemas/demo.schema.json",
+  "title": "QuéComemos demostración noviembre 2026",
+  "allOf": [{"$ref": "bundle.schema.json"}],
+  "properties": {"kind": {"const": "demo"}, "synthetic": {"const": true}, "family": {"properties": {"members": {"minItems": 4, "maxItems": 4}}}},
+  "$comment": "validateBundle añade unicidad de IDs, integridad referencial, fechas reales y semanas en lunes; para demo exige dos adultos, niños de 6 y 10 años y exactamente 60 slots distintos de noviembre 2026."
+}

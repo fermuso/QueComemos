@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://quecomemos.local/schemas/backup.schema.json","title":"QuéComemos copia de seguridad 1.0.0","allOf":[{"$ref":"bundle.schema.json"}],"properties":{"kind":{"const":"backup"}},"$comment":"Restauración atómica: validar todo antes de abrir una transacción de escritura de IndexedDB."}
