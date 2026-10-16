@@ -1,0 +1,35 @@
+QuéComemos 0.1.0: PWA familiar con RAG local
+Resultado y decisiones acordadas
+Crear la aplicación en el repositorio actual y entregar QueComemos-0.1.0.zip y QueComemos-DatosDemo-1.0.0.json, sin publicación web.
+La interfaz será colorida y lúdica, en español, con navegación accesible y adaptación a móvil y escritorio. La aplicación usará HTML, CSS y JavaScript, sin backend, cuentas ni claves. El usuario final recibirá los recursos preparados, sin instalación de dependencias ni compilación.
+Los PDF, TXT y Markdown aportarán contexto al RAG. Las recetas seleccionables procederán del catálogo documentado o de JSON estructurado.
+Aplicación y contratos de datos
+- Mi Familia: miembros, edades, restricciones, preferencias, comidas fuera y tiempo disponible. Porciones configurables y orientativas, sin factores infantiles deducidos de la edad.
+- Menús: semanas de lunes a domingo, comida y cena, sugerencias documentadas de desayuno y tentempiés, platos fijados, regeneración individual y semanas guardadas. Incorporar las comidas fuera al evaluar frecuencias; señalar información incompleta.
+- Recetas: ingredientes, cantidades originales, unidades, raciones, pasos, tiempo, alérgenos y procedencia consultable. Mantener explícitas las cantidades ausentes o «al gusto».
+- Compra: agrupación por ingrediente, unidad compatible y estado seco/cocido; escalado, despensa, compras marcadas, exportación e impresión. Calcular cantidades de compra mediante formatos configurados, sin inventar equivalencias entre unidades o pesos.
+- Fuentes: selección explícita de carpeta DATOS_RAG, selección múltiple e importación por URL cuando CORS lo permita. Detectar PDF sin texto y ofrecer importación manual cuando falle una URL.
+Guardar familia, recetas, fuentes, fragmentos, índice y menús en IndexedDB. Definir esquemas JSON versionados para demostración, recetas y copias de seguridad; validar todo antes de modificar datos. Usar IDs estables, fechas civiles ISO y referencias explícitas entre recetas, menús y evidencias.
+Permitir exportación, restauración y borrado. Explicar que los datos pertenecen al navegador y pueden perderse al limpiar su almacenamiento.
+RAG, fuentes y funcionamiento offline
+- Implementar extracción con PDF.js 6.4.299, fragmentación con página/sección y recuperación BM25 local.
+- Usar WebLLM 0.2.86 en un Worker dedicado y Qwen2.5-0.5B-Instruct cuantizado, fijando la revisión del modelo y su WASM compatible. El modelo declara soporte de español y JSON. Ficha oficial.
+- Filtrar restricciones antes de recuperar candidatos. El modelo recibirá los fragmentos recuperados y devolverá exclusivamente IDs de recetas, IDs de evidencias y una justificación breve. Validar pertenencia, citas y restricciones después; cantidades y frecuencias se calcularán mediante código.
+- Abstenerse ante evidencia insuficiente, restricciones incompatibles o respuestas inválidas. Excluir compatibilidad desconocida cuando existan alergias y nunca relajar restricciones automáticamente.
+- Empaquetar dependencias JS/WASM localmente. Descargar los pesos únicamente mediante una acción explícita, con progreso y cancelación; registrar revisión, licencia, bytes y hashes.
+- Separar el Worker de inferencia del Service Worker. Cachear aplicación y recursos del modelo, gestionar descargas parciales y comprobar arranque frío sin conexión antes de declarar preparado el modo offline.
+Crear un catálogo inicial de al menos 15 recetas documentadas de Canal Salut, revisando permisos individuales, conservando cantidades y atribuyendo traducciones. Su aviso permite reutilización con condiciones y prevalencia de licencias específicas. Aviso de Gencat.
+Registrar los cuatro enlaces originales, fechas y condiciones. La guía escolar y Familia y Salud se ofrecerán como referencias descargables, sin redistribuir sus documentos. Las reglas nutricionales tendrán fuente y población aplicable; la aplicación no certificará suficiencia nutricional.
+Demostración y validación
+La demostración contendrá dos adultos, niños de 6 y 10 años y exactamente 60 entradas entre el 1 y el 30 de noviembre de 2026. Familia y calendario serán ficticios; las recetas conservarán su procedencia real. Su importación será voluntaria.
+Preparar herramientas de desarrollo portátiles y pruebas automatizadas de lógica y navegador. Verificar:
+- JSON válido/corrupto, fechas e IDs, persistencia y restauración.
+- Escalado de 200 g para dos raciones a 400 g para cuatro; suma de 400 g y 250 g a 650 g; estados y unidades incompatibles.
+- Huevo y derivados, alérgenos desconocidos, cambios de edad, corpus vacío y restricciones incompatibles.
+- Diez consultas RAG con evidencias esperadas, midiendo recuperación, citas sustentadas y abstenciones por separado.
+- Generación real con WebGPU, cancelación, reinicio offline, CORS bloqueado, ausencia de GPU y navegación por teclado.
+Probar en los Chromium instalados y la Intel UHD 770 detectada. Registrar resultados reales; una prueba pendiente o el modo de consulta sin IA no contarán como RAG superado.
+Entrega y Git
+Incluir documentación de ejecución HTTPS y localhost, límites de file://, privacidad, fuentes, licencias, modelo, capturas reales y resultados de validación.
+Comprobar el ZIP descomprimiéndolo y ejecutando esa copia. Incluir el JSON también dentro del ZIP y entregar enlaces a ambos archivos.
+Configurar el correo proporcionado únicamente en este repositorio. Mantener Conventional Commits, comenzando por chore: inicializa el repositorio y separando aplicación, pruebas y documentación en commits revisables.
