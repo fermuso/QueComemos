@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuéComemos · Entregable del proyecto</title>
+  <style>
+    @page { size: A4; margin: 13mm 14mm 14mm; }
+    :root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #22243a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-size: 10pt; line-height: 1.48; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { font-size: 34pt; line-height: 1.05; letter-spacing: -1.4pt; }
+    h2 { font-size: 20pt; margin-bottom: 5mm; }
+    h3 { font-size: 12pt; margin: 5mm 0 2mm; }
+    a { color: #5141a7; overflow-wrap: anywhere; }
+    .cover { min-height: 269mm; display: flex; flex-direction: column; justify-content: space-between; break-after: page; page-break-after: always; }
+    .brand { color: #6150c6; font-size: 12pt; font-weight: 700; }
+    .cover-main { padding: 22mm 0; }
+    .eyebrow { color: #6252bf; font-size: 8pt; font-weight: 700; letter-spacing: 1.2pt; text-transform: uppercase; margin-bottom: 4mm; }
+    .subtitle { color: #55536a; font-size: 14pt; max-width: 150mm; }
+    .cover-card { border: 1px solid #dedbed; border-radius: 5mm; padding: 8mm; background: #f7f5ff; }
+    .callout { border-left: 3px solid #db9d68; padding: 3mm 5mm; background: #fff8ee; }
+    .capture-page { height: 269mm; break-before: page; page-break-before: always; break-inside: avoid; page-break-inside: avoid; overflow: hidden; }
+    figure { margin: 0; }
+    figure img { display: block; width: 100%; height: auto; max-height: 202mm; object-fit: contain; object-position: top center; }
+    figcaption { margin-top: 3mm; padding: 0 1mm; color: #55536a; font-size: 9pt; }
+    .verification { margin-top: 3mm; font-size: 8pt; color: #6252bf; }
+    .text-page { break-before: page; page-break-before: always; }
+    table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+    th, td { border: 1px solid #ddd9ea; padding: 2.5mm; text-align: left; vertical-align: top; }
+    th { background: #f1effa; }
+    tr { break-inside: avoid; page-break-inside: avoid; }
+    .source-links { padding-left: 5mm; }
+    .source-links li { margin: 0 0 2.5mm; break-inside: avoid; page-break-inside: avoid; }
+    .source-links span { display: block; color: #666477; font-size: 7.5pt; overflow-wrap: anywhere; }
+    .architecture { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+    .architecture article { padding: 5mm; border: 1px solid #ddd9ea; border-radius: 3mm; }
+    .note { color: #666477; font-size: 8.5pt; }
+    @media screen {
+      body { max-width: 210mm; margin: 12mm auto; padding: 10mm 14mm; box-shadow: 0 1px 12px #0002; }
+    }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <div class="brand">QuéComemos · proyecto 0.1.0</div>
+    <div class="cover-main">
+      <p class="eyebrow">Entregable del proyecto</p>
+      <h1>Menos vueltas.<br>Más sobremesa.</h1>
+      <p class="subtitle">Una herramienta familiar para organizar recetas documentadas, menús y compras desde el mismo navegador.</p>
+      <div class="cover-card">
+        <h2>Qué problema resuelve</h2>
+        <p>Ayuda a una familia a decidir qué cocinar, mantener juntas las restricciones y preferencias de cada persona, y convertir los platos elegidos en una lista de compra. Reúne recetas y evidencias consultables sin enviar el perfil familiar a una cuenta o servicio de IA.</p>
+        <h3>De dónde salen los datos</h3>
+        <p>El catálogo contiene 15 recetas traducidas y atribuidas a páginas individuales de Canal Salut, además de referencias de AESAN, la guía escolar de la Generalitat y Familia y Salud. La familia y el calendario demo son ficticios: noviembre de 2026 incluye 60 entradas, pero el menú no es una pauta oficial ni una respuesta generada por IA.</p>
+      </div>
+      <p class="callout"><strong>Alcance fiel a la aplicación:</strong> esta versión no contiene un chat Svelte ni un backend RAG en Python. Es una PWA estática en HTML, CSS y JavaScript, con un intento de IA local cuya generación real falló en las pruebas registradas.</p>
+    </div>
+    <p class="note">Capturas de la interfaz real con Microsoft Edge y viewport de 1366 × 900. No se han inventado mensajes ni respuestas conversacionales.</p>
+  </section>
+
+  
+    <section class="capture-page">
+      <p class="eyebrow">Captura 01 · QuéComemos en Edge</p>
+      <h2>Menú semanal</h2>
+      <figure>
+        <img src="capturas/01-menu-semana.png" alt="Menú semanal — interfaz real de QuéComemos">
+        <figcaption>Menú de demostración de una semana completa, con comidas y cenas enlazadas a recetas. La familia y el calendario son ficticios; esta pantalla no es una respuesta de chat ni una propuesta generada por IA.</figcaption>
+      </figure>
+      <p class="verification">Menú semanal · 14 platos visibles</p>
+    </section>
+    <section class="capture-page">
+      <p class="eyebrow">Captura 02 · QuéComemos en Edge</p>
+      <h2>Mi familia</h2>
+      <figure>
+        <img src="capturas/02-mi-familia.png" alt="Mi familia — interfaz real de QuéComemos">
+        <figcaption>Perfil ficticio de dos personas adultas y niños de 6 y 10 años. Las porciones se configuran manualmente; no se deducen de la edad.</figcaption>
+      </figure>
+      <p class="verification">Familia de demostración · edades y porciones configurables</p>
+    </section>
+    <section class="capture-page">
+      <p class="eyebrow">Captura 03 · QuéComemos en Edge</p>
+      <h2>Detalle de una receta</h2>
+      <figure>
+        <img src="capturas/03-detalle-receta.png" alt="Detalle de una receta — interfaz real de QuéComemos">
+        <figcaption>Ingredientes, cantidades originales, raciones escalables, pasos y enlace a la fuente consultable de Canal Salut.</figcaption>
+      </figure>
+      <p class="verification">Detalle de receta · fuente individual consultable</p>
+    </section>
+    <section class="capture-page">
+      <p class="eyebrow">Captura 04 · QuéComemos en Edge</p>
+      <h2>Lista de la compra</h2>
+      <figure>
+        <img src="capturas/04-lista-compra.png" alt="Lista de la compra — interfaz real de QuéComemos">
+        <figcaption>Ingredientes agregados desde los platos del menú. Solo se suman unidades y estados compatibles; no se inventan conversiones.</figcaption>
+      </figure>
+      <p class="verification">Lista de la compra · 65 ingredientes</p>
+    </section>
+    <section class="capture-page">
+      <p class="eyebrow">Captura 05 · QuéComemos en Edge</p>
+      <h2>Fuentes y documentos</h2>
+      <figure>
+        <img src="capturas/05-documentos-fuentes.png" alt="Fuentes y documentos — interfaz real de QuéComemos">
+        <figcaption>Biblioteca documental real del catálogo. La ficha muestra organización, tipo, licencia y fragmentos indexables; permite abrir la fuente original.</figcaption>
+      </figure>
+      <p class="verification">Biblioteca de fuentes · 19 documentos</p>
+    </section>
+
+  <section class="text-page">
+    <p class="eyebrow">Revisión y trazabilidad</p>
+    <h2>Cómo lo comprobé</h2>
+    <p>Busqué el archivo <code>@maquetas.html</code> y no existe en el proyecto abierto. Tampoco hay chat ni campo de consulta libre, así que no se enviaron las tres preguntas referidas ni se simuló una pregunta de abstención. En su lugar comprobé el menú demo, el perfil familiar, un detalle de receta, la lista de compra y las fichas de documentos visibles en QuéComemos.</p>
+    <table>
+      <thead><tr><th>Pregunta que sería útil comprobar</th><th>Qué muestra realmente la aplicación</th><th>¿La fuente dice lo mismo?</th></tr></thead>
+      <tbody>
+        <tr><td>«¿Qué se ha planificado para esta semana?»</td><td>La semana demo muestra 14 comidas y cenas. Es un calendario ficticio guardado, no una contestación de IA.</td><td><strong>No como plan semanal.</strong> Las páginas de recetas documentan cada plato por separado; no respaldan la combinación del calendario.</td></tr>
+        <tr><td>«¿Qué ingredientes lleva la crema de lentejas rojas?»</td><td>El detalle permite revisar ingredientes y cantidades originales de la receta.</td><td><strong>Contrastar con Canal Salut.</strong> Abre la fuente individual de la crema y coteja ingrediente por ingrediente; los pasos de la app son una traducción/síntesis atribuida.</td></tr>
+        <tr><td>«¿Para cuántas raciones es la receta original?»</td><td>La ficha indica las raciones originales y deja escalar cantidades culinarias con un control manual.</td><td><strong>Contrastar con la misma ficha original.</strong> Las porciones no se deducen de la edad ni son una prescripción nutricional.</td></tr>
+        <tr><td>Pregunta fuera de evidencia: «¿Esta semana garantiza una dieta completa o es segura ante cualquier alergia?»</td><td>No se hizo a un chat porque no hay chat. La aplicación advierte que no certifica suficiencia nutricional ni ausencia de trazas.</td><td><strong>No debe afirmarse.</strong> Revisa las guías generales y los avisos de límites; un listado de recetas no demuestra suficiencia ni ausencia de contaminación cruzada.</td></tr>
+      </tbody>
+    </table>
+    <p class="callout"><strong>Resultado real de IA:</strong> la prueba con Edge, WebGPU y la Intel UHD 770 se documenta en <code>VALIDACION.md</code>. La generación JSON falló con <code>Grammar matcher rejected the newly sampled token</code>, también en el intento sin conexión. Por eso no se declara superado el RAG generado, no se atribuyen respuestas al modelo y no se afirma haber probado una abstención conversacional.</p>
+    <h3>Fuentes que puedes abrir para confirmarlo</h3>
+    
+    <h3>Recetas oficiales incluidas en el catálogo</h3>
+    <ul class="source-links">
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Crema-de-llenties-vermelles-pastanaga-i-coriandre">Crema de lentejas rojas, zanahoria y cilantro</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Crema-de-llenties-vermelles-pastanaga-i-coriandre</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Fals_pate_de_llenties_i_nous">Paté de lentejas y nueces</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Fals_pate_de_llenties_i_nous</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Crema-de-mongetes-blanques-carbassa-i-romani">Crema de alubias blancas, calabaza y romero</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Crema-de-mongetes-blanques-carbassa-i-romani</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Cigrons_amb_curri">Garbanzos con curry y calabaza</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Cigrons_amb_curri</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Estofat_de_verdures_amb_tofu">Estofado de verduras con tofu</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Estofat_de_verdures_amb_tofu</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Sopa_de_llenties_amb_mostassa">Sopa de lentejas con mostaza</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Sopa_de_llenties_amb_mostassa</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Hamburgueses_de_mongetes_vermelles">Hamburguesas de alubias rojas</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Hamburgueses_de_mongetes_vermelles</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Ous_al_plat_amb_pesols">Huevos al plato con guisantes</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Ous_al_plat_amb_pesols</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/Llenties-amb-arros-i-bolets">Lentejas con arroz y setas</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/Llenties-amb-arros-i-bolets</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/arros-carxofes-bolets">Arroz con alcachofas y setas</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/arros-carxofes-bolets</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/arros-integral-verdures">Arroz integral con verduras</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/arros-integral-verdures</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/crema-coliflor-broquil-ametlles">Crema de coliflor, brócoli y almendras</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/crema-coliflor-broquil-ametlles</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/espirals-carbasso-alfabrega">Espirales con calabacín y albahaca</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/espirals-carbasso-alfabrega</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/llobarro-forn-aroma-fonoll-llimona">Lubina al horno con hinojo y limón</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/llobarro-forn-aroma-fonoll-llimona</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/detalls/article/pollastre-samfaina">Pollo con samfaina</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/detalls/article/pollastre-samfaina</span>
+      </li>
+    </ul>
+    <h3>Referencias generales y guías (no se empaquetan sus PDF)</h3>
+    <ul class="source-links">
+      <li><a href="https://www.aesan.gob.es/nutricion/recomendaciones-dieteticas">Recomendaciones dietéticas y de actividad física</a>
+        <span>AESAN · https://www.aesan.gob.es/nutricion/recomendaciones-dieteticas</span>
+      </li>
+      <li><a href="https://salutpublica.gencat.cat/web/.content/minisite/aspcat/promocio_salut/alimentacio_saludable/02Publicacions/pub_alim_inf/guia_alimentacio_saludable_etapa_escolar/guia_alimentacion_etapa_escolar.pdf">La alimentación saludable en la etapa escolar. Guía para familias y escuelas</a>
+        <span>Agencia de Salud Pública de Cataluña · https://salutpublica.gencat.cat/web/.content/minisite/aspcat/promocio_salut/alimentacio_saludable/02Publicacions/pub_alim_inf/guia_alimentacio_saludable_etapa_escolar/guia_alimentacion_etapa_escolar.pdf</span>
+      </li>
+      <li><a href="https://canalsalut.gencat.cat/ca/vida-saludable/alimentacio/receptes-saludables/">Recetas saludables · buscador oficial</a>
+        <span>Generalitat de Catalunya · Canal Salut · https://canalsalut.gencat.cat/ca/vida-saludable/alimentacio/receptes-saludables/</span>
+      </li>
+      <li><a href="https://www.familiaysalud.es/sites/default/files/100_recetas_saludables_para_disfrutar_en_familia_fys_compr_1_1.pdf">100 recetas saludables para disfrutar en familia</a>
+        <span>Familia y Salud · Asociación Española de Pediatría de Atención Primaria · https://www.familiaysalud.es/sites/default/files/100_recetas_saludables_para_disfrutar_en_familia_fys_compr_1_1.pdf</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="text-page">
+    <p class="eyebrow">Implementación</p>
+    <h2>Cómo está hecho</h2>
+    <div class="architecture">
+      <article><h3>Interfaz</h3><p>HTML, CSS y JavaScript modular; diseño responsive con secciones de menú, familia, recetas, compra y fuentes. No usa Svelte.</p></article>
+      <article><h3>Datos y servidor</h3><p>No hay backend Python: perfiles, documentos importados, fragmentos e índice se almacenan localmente en IndexedDB. La app se sirve como sitio estático por HTTPS o localhost.</p></article>
+      <article><h3>RAG previsto</h3><p>PDF.js extrae texto; BM25 recupera fragmentos con página y sección. La validación de IDs, citas y restricciones se hace en JavaScript.</p></article>
+      <article><h3>Modelo</h3><p>La IA prevista es Qwen2.5-0.5B-Instruct-q4f16_1-MLC, cargado con WebLLM 0.2.86 en un Worker WebGPU. La revisión del modelo y sus hashes figuran en <code>data/model-manifest.json</code>.</p></article>
+    </div>
+    <h3>Comprobaciones ejecutadas</h3>
+    <p>Se validaron las 60 entradas de la demo, escalado de cantidades, suma de compra, compatibilidad de unidades/estados, restricciones de alérgenos, ingestión de documentos, persistencia y restauración. Las pruebas de regresión anteriores dieron 51/51 pruebas de lógica y 36/36 pruebas de navegador; la suite también pasó contra la copia extraída del ZIP.</p>
+    <p><strong>Limitación:</strong> los casos BM25 y de citas validadas con datos de prueba no sustituyen una generación real. La inferencia real no pasó; los resultados completos, el entorno y las pruebas pendientes están descritos en <code>VALIDACION.md</code>.</p>
+    <h3>Documentación del proyecto</h3>
+    <ul><li><code>README.md</code>: ejecución, privacidad, uso, licencias y modelo.</li><li><code>docs/FUENTES.md</code>: atribuciones, fechas, condiciones y páginas de referencia.</li><li><code>VALIDACION.md</code>: comandos, resultados observados y limitaciones.</li></ul>
+    <p class="note">Documento generado localmente sin librerías externas. Las imágenes se cargan desde <code>capturas/</code>; conserva esa carpeta junto a <code>entregable.html</code> para imprimir de nuevo el PDF.</p>
+  </section>
+</body>
+</html>
